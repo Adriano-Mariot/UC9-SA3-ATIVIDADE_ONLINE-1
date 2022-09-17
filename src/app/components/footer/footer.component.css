@@ -1,0 +1,52 @@
+footer .geral{
+    height: 330px;
+    background-image: linear-gradient(to right, black, #1B2339,black);
+    display: flex;
+    justify-content:center;
+}
+
+footer .geral section{
+    max-width: 1200px;
+    
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+footer .geral section div{
+    margin-top: 25px;
+    max-width: 400px;
+}
+
+footer .geral nav li{
+    list-style-position: inside;
+    list-style-image: url(../../../assets/images/seta_para_direita.png);
+}
+footer .geral nav a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .geral nav a:hover{
+    opacity: 40%;
+}
+
+footer .geral img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer .direitos{
+    height: 70px;
+    background-color: #1B2339;
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    color: white;
+}
+
+footer .direitos section{
+    max-width: 1200px;
+}

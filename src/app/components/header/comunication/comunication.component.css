@@ -1,0 +1,36 @@
+div{
+    background-color: #1B2339;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    font-size: 20px;
+}
+
+section{
+    width: 1200px;
+    display: flex;
+    justify-content:space-between;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+img{
+    width: auto;
+    height: 70%;
+}
+
+img:hover {
+    opacity: 50%;
+}

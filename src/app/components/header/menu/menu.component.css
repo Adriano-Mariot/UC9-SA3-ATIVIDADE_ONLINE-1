@@ -1,0 +1,27 @@
+div{
+    height: 80px;
+    background-color: #FF3333;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 1200px;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+nav a{
+    padding: 1vw;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    opacity: 50%;
+}

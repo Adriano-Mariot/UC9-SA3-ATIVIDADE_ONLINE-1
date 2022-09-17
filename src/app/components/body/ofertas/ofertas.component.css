@@ -1,0 +1,27 @@
+
+section{
+    display: flex;
+    justify-content: center;
+
+    padding: 2% 0;
+}
+article{
+    width: 1200px;   
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+section .ofertaslinha{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 25px 20px;
+    height:400px;
+}

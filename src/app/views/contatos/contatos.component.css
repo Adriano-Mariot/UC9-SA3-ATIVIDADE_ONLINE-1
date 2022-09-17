@@ -1,0 +1,17 @@
+main{
+    background-color: #1B2339;  
+    text-align: center;
+    height: 50vw;
+    padding: 10%;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+span{
+    color: #FF3333;
+    text-transform: uppercase;
+    font-size: 70px;
+}

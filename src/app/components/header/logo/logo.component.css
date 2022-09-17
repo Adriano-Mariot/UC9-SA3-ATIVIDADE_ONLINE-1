@@ -1,0 +1,93 @@
+section{
+    height: 250px;
+    background-image: linear-gradient(to right, black, #4A7AFF,black);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container-1{
+    max-width: 1200px;
+
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+
+    
+}
+
+section .container-1 article {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+
+section .container-1 .item1 {
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    max-width: 500px;
+}
+
+
+section .container-1 .item2{
+    display: flex;
+    width: 350px;
+    height: 100px;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+}
+
+section .container-1 .item2 nav a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+section .container-1 .item2 nav a:hover{
+    color:#4A7AFF;
+    transition: 50ms;
+}
+
+section .container-1 .item2 button {
+    width: 300px;
+    height:70px;
+
+    border-style: none;
+    border-radius: 10px;
+    background-color: #FF3333;
+
+    color: white;
+    font-size: 30px;
+
+    box-shadow: 0px 0px 10px black;
+    background-image: url(../../../../assets/images/shopping-cart.png);
+    background-position: 10px center;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+section .container-1 .item2 button:hover{
+    opacity: 50%;
+}
+
+section .container-1 .item3 input{
+    margin: 20px auto;
+    padding: 5px;
+    width: 820px;
+    height: 70px;
+
+    border-style: none;
+    border-radius: 10px;
+    background-color: white;
+
+    color: black;
+    font-size: 30px;
+
+    box-shadow: 0px 0px 10px black;
+    background-image: url(../../../../assets/images/search.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 99% center;
+}
